@@ -1,5 +1,5 @@
 # IGMPv3 tunnel
-This project implements an IGMPv3 covert channel, a collaborative effort by Marijn, Sam, and Isaac during the "Offensive Technologies" course at the University of Amsterdam.
+This project implements an IGMPv3 covert channel, a collaborative effort by Marijn, [Sam](https://github.com/samevans77), and [Isaac](https://github.com/izak0s) during the "Offensive Technologies" course at the University of Amsterdam.
 
 This project leverages the Source Addresses field within IGMPv3 Membership Query packets (type 0x11) to encapsulate and transmit IP packets. This technique offers a potential method for concealing data transmission within network traffic.
 
